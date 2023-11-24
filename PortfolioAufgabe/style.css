@@ -1,0 +1,84 @@
+header {
+    background-color: rgb(255, 153,10);
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+header h1 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 40px;
+    color: red;
+    flex: 1; 
+    margin-left: 10px;
+}
+#logo {
+    width: 120px;
+    height:auto;
+    margin: 10px 20px 10px 20px;
+}
+
+#screenshot {
+    width: 170px;
+    height:auto;
+    margin: 20px 40px 0px 100px
+
+}
+body { 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: floralwhite;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 50px;
+
+}
+
+
+h2  {
+    text-align: center;
+}
+footer { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    background-color: red;
+    }
+
+a {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+    
+header h4 {
+    margin-bottom: 20px;
+    margin-right: 100px;
+    font-size: 20px;
+}    
+    
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 400px;
+    margin-left: 400px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: larger;
+}
+
+th {
+    background-color: #f2f2f2;
+}
